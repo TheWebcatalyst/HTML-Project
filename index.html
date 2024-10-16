@@ -3,9 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to My First Project</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header><br><br><br>
+    <main>
+        <video controls >
+            <source src="Factory of 3D Animations_free (online-video-cutter.com).mp4" type="">
+        </video><br>
+        <audio controls src="talk nonsense.mp3"></audio><br><br>
+        <section id="about">
+           <h2>About Me</h2>
+           <article>
+                <p> I am <strong>Victor Innocent</strong> I'm a passionate computer science student currently pursuing my undergraduate degree at the University of Nigeria Nsukka.
+                    With a strong foundation in programming and problem-solving. I'm eager to explore the exciting world of web development. I'm currently honing my skills in
+                    frontend development as part of my industrial training program at GoMyCode Nigeria, Yabahackerspace. This hands-on experience is providing me with invaluable
+                    insights into the practical application of web development principles. I'm excited to continue my journey in the tech industry and contribute to innovative
+                    projects that make a positive impact.
+                </p>
+           </article>
+
+        </section><br><br>
+        <section id="work">
+            <h2>Work Experience</h2>
+            <dl>
+                <dt><b>Job Title:</b></dt>
+                <dd> Frontend Developer</dd>
+                <dt><b>Company Name:</b></dt>
+                <dd> GOMYCODE </dd>
+                <dt><b>Location</b></dt>
+                <dd>
+                    <address>
+                       230 Herbert Macaulay way,<br>
+                       Off Alagomeji Bus Stop,<br>
+                       yaba, Lagos State
+                   </address>
+                </dd>
+                <dt><b>Contact</b></dt>
+                <dd>09024462599</dd>
+            </dl>
+          </section><br><br>
+          <section id="resume">
+            <h2>Resume</h2>
+            <div class="resume-item">
+              <h3>Skills</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h3>Education</h3>
+              <dl>
+                <dt><b>Degree Name:</b></dt>
+                <dd>Bsc Computer Science</dd>
+                <dt><b>Institution Name:</b></dt>
+                <dd>University of Nigeria Nsukka</dd>
+                <dt><b>Graduation Year:</b></dt>
+                <dd>Year 2025</dd>
+              </dl>
+            </div>
+            </section><br><br>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form action="#">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required><br>
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" rows="5" required></textarea><br>
+                  <input type="submit" value="Send">
+                </form>
+              </section>
+    </main><br><br><br>
+    <footer>
+        <section>
+            <h3>Personal Info</h3>
+            <p>Phone: +234-9024462599</p>
+            <p>Email: innocentvico6@gmail.com</p>
+            <p>Address: 123 Main Street, Lagos, Nigeria</p>
+        </section>
+        <section>
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#About">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#"><button type="submit">Back to Top</button></a>
+        </section>
+        <section>
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </section>
+    </footer>
+
 </body>
 </html>
